@@ -1,6 +1,6 @@
 /* 	
 	http://ogulcanorhan.com
-  	CountUp for jQuery v1.4+
+  	CountDown for jQuery v1.4+
   	Licensed under the GPL (http://www.gnu.org/copyleft/gpl.html)
   	Developed by Ogulcan Orhan (mail@ogulcan.org) October 2011
  
