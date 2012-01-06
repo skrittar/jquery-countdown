@@ -139,7 +139,7 @@
 			var fromDate = $.extend([], _timeStructure);
 			fromDate.year   = startDate.getFullYear();
 
-			(startDate.getMonth()<9)    ? fromDate.month   = "0" + startDate.getMonth()+1 : fromDate.month   = startDate.getMonth()+1;
+			(startDate.getMonth()<9)    ? fromDate.month   = "0" + (startDate.getMonth()+1) : fromDate.month   = startDate.getMonth()+1;
 			(startDate.getDate()<10)    ? fromDate.day     = "0" + startDate.getDate()    : fromDate.day     = startDate.getDate();
 			(startDate.getHours()<10)   ? fromDate.hour    = "0" + startDate.getHours()   : fromDate.hour    = startDate.getHours();
 			(startDate.getMinutes()<10) ? fromDate.minute  = "0" + startDate.getMinutes() : fromDate.minute  = startDate.getMinutes();
